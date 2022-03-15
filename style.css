@@ -34,7 +34,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -81,7 +81,7 @@ header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
 }
-ul {
+header ul {
   display: flex;
   flex-direction: row;
   justify-content: center
