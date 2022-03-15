@@ -1,4 +1,7 @@
 /* -------  General Styles ------- */
+html,body{
+  overflow-x: hidden;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -77,6 +80,11 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
 }
 
 /* -------  Search Form ------- */
