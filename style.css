@@ -158,4 +158,19 @@ footer p {
     margin-bottom: 0;
   }
   
+  #about .group {
+    flex-direction: row;
+  }
+
+  #ideas .group {
+    flex-direction: row;
+  }
+
+  #host .group {
+    flex-direction: row;
+  }
+
+  #hostInfo {
+    margin-top: 13%;
+  }
 }
