@@ -142,6 +142,20 @@ footer p {
     font-size: 40px;
     flex:1
   }
+  form .group {
+    flex-direction: column;
+    flex: 1;
+  }
 
-
+  form {
+    display: flex;
+  }
+  button {
+    flex:1;
+  }
+  
+  .item {
+    margin-bottom: 0;
+  }
+  
 }
