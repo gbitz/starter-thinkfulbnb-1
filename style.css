@@ -145,13 +145,22 @@ footer p {
   form .group {
     flex-direction: column;
     flex: 1;
+    align-items: center;
   }
 
   form {
     display: flex;
+    flex-wrap: wrap;
   }
-  button {
-    flex:1;
+  form button {
+    background-color: #ff385c;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 15px;
+    flex: 1;
   }
   
   .item {
@@ -160,6 +169,8 @@ footer p {
   
   #about .group {
     flex-direction: row;
+    
+
   }
 
   #ideas .group {
